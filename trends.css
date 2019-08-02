@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.trends{
+  text-align: center;
+  font-size: 60px;
+
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 25px;
+  background-color: lavenderBlush;
+  color: black;
+  padding: 5px;  
+}
+
+.trendInfo{
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
+/* .search{
+  align-self: center;
+  float: right;
+} */
+
+img{
+  object-fit: cover;
+  weight: 500px;
+  height: 500px;
+}

@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  font-size: 60px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
+  background-color: lavenderBlush;
+  color: black;
+  padding: 5px;
+}
+
+.shop-bar{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 7px;
+  border: 5px solid mediumTurquoise;
+  margin: 5px;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+/* .search{300px
+  align-self: center;
+  float: right;
+} */
+/* .top-nav{
+  margin-right: 200px;
+} */
+.lali-image{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.carrie-image{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+
+}
+/* body{
+  text-align: center;
+} */
+
+.aboutUs{
+  border: 5px dotted mediumTurquoise;
+  padding: 30px;
+  background-color: lavenderBlush;
+  text-align: center;
+  font-size: 25px;
+}
+
+.aboutCarrie{
+  display:flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.carrie{
+  width:70%;
+  font-size: 25px;
+}
+.aboutLali {
+  display:flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.lali{
+
+  width: 70%;
+  font-size:25px;
+}
+
+
+
+
+/* end */

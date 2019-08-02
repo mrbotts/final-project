@@ -4,9 +4,27 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: whiteSmoke;
+}
+
 .shop{
   text-align: center;
   font-size: 60px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  background-color: slateBlue;
+  opacity: .8;
 }
 
 .nav-bar{
@@ -14,7 +32,7 @@
   justify-content: space-around;
   text-align: center;
   font-size: 20px;
-  background-color: lavenderBlush;
+  background-color: pink;
   color: black;
   padding: 5px;
   margin-bottom: 25px;
@@ -24,11 +42,88 @@
   height: 300px;
   width: 300px;
   object-fit: cover;
-  padding: 10px;
+  padding: 7px;
   border: 5px solid mediumTurquoise;
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+
 }
 
-/* .search{
-  align-self: center;
-  float: right;
-} */
+.shop-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin: 35px;
+}
+
+
+h2{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 40px;
+  background-color: lavenderBlush;
+  color: slateBlue;
+}
+
+h3{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 40px;
+  background-color: lavenderBlush;
+  color: slateBlue;
+}
+
+h4{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 40px;
+  background-color: lavenderBlush;
+  color: slateBlue;
+}
+
+h5{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 40px;
+  background-color: lavenderBlush;
+  color: slateBlue;
+}
+
+.container{
+  text-align: center;
+  font-size: 20px;
+  background-color: pink;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-top: 50px;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.second-row {
+  margin-left: 65px
+}
+
+ .third-row{
+  margin-left: 50px;
+}
+
+.fourth-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

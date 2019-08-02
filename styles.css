@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: whiteSmoke;
+}
+
 .main{
   text-align: center;
 }
@@ -11,12 +16,26 @@
   font-size: 60px;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  background-color: slateBlue;
+  opacity: .8;
+}
+
 .nav-bar{
   display: flex;
   justify-content: space-around;
   text-align: center;
   font-size: 20px;
-  background-color: lavenderBlush;
+  background-color: pink;
   color: black;
   padding: 5px;
 }

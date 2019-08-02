@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: white;
+}
+
 .trends{
   text-align: center;
   font-size: 60px;
@@ -16,9 +20,9 @@
   text-align: center;
   font-size: 20px;
   margin-bottom: 25px;
-  background-color: lavenderBlush;
+  background-color: pink;
   color: black;
-  padding: 5px;  
+  padding: 5px;
 }
 
 .trendInfo{
@@ -33,6 +37,60 @@
 
 img{
   object-fit: cover;
-  weight: 500px;
-  height: 500px;
+  weight: 700px;
+  height: 700px;
+  margin: 30px;
+}
+
+.plaidSection{
+  display:flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  background-color: slateBlue;
+  opacity: .8;
+}
+
+.neonSection{
+  display:flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.animalSection{
+  display:flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.plaid-title{
+  text-align: center;
+  font-size: 30px;
+  background-color: slateBlue;
+  color: lavenderBlush;
+}
+
+.neon-title{
+  text-align: center;
+  font-size: 30px;
+  background-color: slateBlue;
+  color: lavenderBlush;
+}
+
+.animal-title{
+  text-align: center;
+  font-size: 30px;
+  background-color: slateBlue;
+  color: lavenderBlush;
 }
